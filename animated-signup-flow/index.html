@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+  	
+	<title> Boxera </title>
+</head>
+<body>
+	<header class="cd-main-header">
+		<h1>Hello From Boxera : choose your way to pay </h1>
+	</header>
+
+	<ul class="cd-pricing">
+		<li>
+			<header class="cd-pricing-header">
+				<h2>Ether</h2>
+
+				
+			</header> 
+
+			<footer class="cd-pricing-footer">
+				<a href="#0">Select</a>
+			</footer> <!-- .cd-pricing-footer -->
+		</li> 
+
+		
+	<li>
+			<header class="cd-pricing-header">
+				<h2>Bank Card</h2>
+
+				
+			</header> <!-- .cd-pricing-header -->
+
+		
+
+			<footer class="cd-pricing-footer">
+				<a href="#0">Select</a>
+			</footer> <!-- .cd-pricing-footer -->
+		</li> 
+
+		<li>
+			<header class="cd-pricing-header">
+				<h2>Fiat</h2>
+
+				
+			</header> 
+
+			<footer class="cd-pricing-footer">
+				<a href="#0">Select</a>
+			</footer> <!-- .cd-pricing-footer -->
+		</li> 
+	</ul> <!-- .cd-pricing -->
+
+	<div class="cd-form">
+		
+		<div class="cd-plan-info">
+			<!-- content will be loaded using jQuery - according to the selected plan -->
+		</div>
+
+		<div class="cd-more-info">
+			<h3>Need help?</h4>
+			<p>Join us on </p> <a href="https://byrsalab.slack.com"> Slack </a>
+		</div>
+		
+		<form name="transfer-form" method="post" action="/transfer">
+			<fieldset>
+				<legend>Send Money</legend>
+				
+				<div class="half-width">
+					<label for="from">Your Id</label>
+					<input type="text" id="from" name="from">
+				</div>
+				 
+				<div class="half-width">
+					<label for="to">Recipient's Id</label>
+					<input type="text" id="to" name="to">
+				</div>
+				
+				<div class="half-width">
+					<label for="amount">Amount</label>
+					<input type="text" id="amount" name="amount">
+				</div>
+				
+				
+			</fieldset>
+
+			<fieldset>
+				
+				
+				<div  >
+
+				
+				
+					
+					</ul> <!-- .cd-payment-gateways -->
+
+				</div>
+				
+			
+			</fieldset>
+			
+			<fieldset>
+				<div>
+					<input type="submit" value="Send">
+				</div>
+			</fieldset>
+		</form>
+
+		<a href="#0" class="cd-close"></a>
+	</div> <!-- .cd-form -->
+	
+	<div class="cd-overlay"></div> <!-- shadow layer -->
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/velocity.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+</html>
